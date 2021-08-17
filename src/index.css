@@ -65,10 +65,23 @@ p#num-votes {
 
 img#sikad-icon {
   width: 20px;
+  float: left;
 }
 
 .voting-logs {
   background-color: #eee;
   padding: 20px;
   font-size: 12px;
+}
+
+@media (max-width: 600px) {
+  .sikad-count {
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+  }
+  .sikad-count img {
+    width: 100px;
+    border-radius: 50%;
+  }
 }
