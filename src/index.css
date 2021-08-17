@@ -19,6 +19,10 @@ code {
   margin-top: 20px;
 }
 
+.sikad-wrapper h2 {
+  padding-left: 20px;
+}
+
 .sikad-header {
   background-color: #053142;
   color: #fff;
