@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/sikadelection/static/css/main.89a25e28.chunk.css",
-    "main.js": "/sikadelection/static/js/main.e63cf04d.chunk.js",
-    "main.js.map": "/sikadelection/static/js/main.e63cf04d.chunk.js.map",
+    "main.css": "/sikadelection/static/css/main.7133ba8e.chunk.css",
+    "main.js": "/sikadelection/static/js/main.34550033.chunk.js",
+    "main.js.map": "/sikadelection/static/js/main.34550033.chunk.js.map",
     "runtime-main.js": "/sikadelection/static/js/runtime-main.5b48af7e.js",
     "runtime-main.js.map": "/sikadelection/static/js/runtime-main.5b48af7e.js.map",
     "static/js/2.22c824f9.chunk.js": "/sikadelection/static/js/2.22c824f9.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.83ab7254.chunk.js": "/sikadelection/static/js/3.83ab7254.chunk.js",
     "static/js/3.83ab7254.chunk.js.map": "/sikadelection/static/js/3.83ab7254.chunk.js.map",
     "index.html": "/sikadelection/index.html",
-    "static/css/main.89a25e28.chunk.css.map": "/sikadelection/static/css/main.89a25e28.chunk.css.map",
+    "static/css/main.7133ba8e.chunk.css.map": "/sikadelection/static/css/main.7133ba8e.chunk.css.map",
     "static/js/2.22c824f9.chunk.js.LICENSE.txt": "/sikadelection/static/js/2.22c824f9.chunk.js.LICENSE.txt",
     "static/media/artImage.e8b8a6a7.jpeg": "/sikadelection/static/media/artImage.e8b8a6a7.jpeg",
     "static/media/heiroImage.be17a099.jpeg": "/sikadelection/static/media/heiroImage.be17a099.jpeg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.5b48af7e.js",
     "static/js/2.22c824f9.chunk.js",
-    "static/css/main.89a25e28.chunk.css",
-    "static/js/main.e63cf04d.chunk.js"
+    "static/css/main.7133ba8e.chunk.css",
+    "static/js/main.34550033.chunk.js"
   ]
 }
