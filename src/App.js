@@ -50,15 +50,15 @@ function App() {
         rey++;
       }
   
-      console.log(name);
+      // console.log(name);
   
     }
   }
 
-  console.log(heiro);
-  console.log(art);
-  console.log(jerome);
-  console.log(rey);
+  // console.log(heiro);
+  // console.log(art);
+  // console.log(jerome);
+  // console.log(rey);
 
   const totalVotes = heiro + art + jerome + rey;
 
