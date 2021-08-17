@@ -13,7 +13,7 @@ function App() {
 
   const url = "https://sheets.googleapis.com/v4/spreadsheets/1zFG7e5nlQSI5j832snvCgWj8RxioS1ZLRrIn1XOF8U4/values/President!A2:B?key=AIzaSyBwGOcaOA2aPj-YLWqCtxxSCMenbRj9dp4";
 
-  console.log(candidates);
+  // console.log(candidates);
 
   useEffect(() => {
     getPres();
