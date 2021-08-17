@@ -36,6 +36,7 @@ function App() {
   let jerome = 0;
   let rey = 0;
 
+
   if (candidates) {
     for (let i=0; i < candidates.length; i++) {
       const name = candidates[i][1];
@@ -60,6 +61,11 @@ function App() {
   // console.log(jerome);
   // console.log(rey);
 
+  const perH = parseFloat(heiro / 66 * 100).toFixed(2);
+  const perA = parseFloat(art / 66 * 100).toFixed(2);
+  const perJ = parseFloat(jerome / 66 * 100).toFixed(2);
+  const perR = parseFloat(rey / 66 * 100).toFixed(2);
+
   const totalVotes = heiro + art + jerome + rey;
 
   const renderCandidates = candidates.map((data, id) => {
@@ -78,6 +84,7 @@ function App() {
   const progessHeiro = {
     backgroundColor: "rgb(239 7 178)",
     width: `${heiro*1.52}%`,
+    transition: "all 4s",
     height: "20px",
     float: "left"
   }
@@ -85,6 +92,7 @@ function App() {
   const progessArt = {
     backgroundColor: "rgb(29 251 251)",
     width: `${art*1.52}%`,
+    transition: "all 4s",
     height: "20px",
     float: "left"
   }
@@ -92,6 +100,7 @@ function App() {
   const progessJerome = {
     backgroundColor: "rgb(245 151 34)",
     width: `${jerome*1.52}%`,
+    transition: "all 4s",
     height: "20px",
     float: "left"
   }
@@ -99,6 +108,7 @@ function App() {
   const progessRey = {
     backgroundColor: "rgb(56 243 208)",
     width: `${rey*1.52}%`,
+    transition: "all 4s",
     height: "20px",
     float: "left"
   }
@@ -114,25 +124,33 @@ function App() {
           <img alt="sikad candidate" src={heiroImage} />
           <p>Heiro Angelo Ape</p>
           <p id="num-votes">Votes: {heiro}</p>
-          <p style={progessHeiro}>&nbsp;</p><img id="sikad-icon" alt="running-bike" width="20px" src={iconMTB} />
+          <p style={progessHeiro}>&nbsp;</p>
+          <img id="sikad-icon" alt="running-bike" width="20px" src={iconMTB} />
+          <span id="perc">&nbsp;{perH}%</span>
         </div>
         <div className="sikad-count">
           <img alt="sikad candidate" src={artImage} />
           <p>Art Villarasa</p>
           <p id="num-votes">Votes: {art}</p>
-          <p style={progessArt}>&nbsp;</p><img id="sikad-icon" alt="running-bike" width="20px" src={iconMTB} />
+          <p style={progessArt}>&nbsp;</p>
+          <img id="sikad-icon" alt="running-bike" width="20px" src={iconMTB} />
+          <span id="perc">&nbsp;{perA}%</span>
         </div>
         <div className="sikad-count">
           <img alt="sikad candidate" src={jeromeImage} />
           <p>Jerome Gayeta</p>
           <p id="num-votes">Votes: {jerome}</p>
-          <p style={progessJerome}>&nbsp;</p><img id="sikad-icon" alt="running-bike" width="20px" src={iconMTB} />
+          <p style={progessJerome}>&nbsp;</p>
+          <img id="sikad-icon" alt="running-bike" width="20px" src={iconMTB} />
+          <span id="perc">&nbsp;{perJ}%</span>
         </div>
         <div className="sikad-count">
           <img alt="sikad candidate" src={reyImage} />
           <p>Rey Regasa</p>
           <p id="num-votes">Votes: {rey}</p>
-          <p style={progessRey}>&nbsp;</p><img id="sikad-icon" alt="running-bike" width="20px" src={iconMTB} />
+          <p style={progessRey}>&nbsp;</p>
+          <img id="sikad-icon" alt="running-bike" width="20px" src={iconMTB} />
+          <span id="perc">&nbsp;{perR}%</span>
         </div>
         <h2>Voting Logs</h2>
         <hr />
