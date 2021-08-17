@@ -95,4 +95,7 @@ img#sikad-icon {
     width: 100px;
     border-radius: 50%;
   }
+  #perc {
+    float: left;
+  }
 }
